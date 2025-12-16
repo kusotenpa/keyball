@@ -7,13 +7,15 @@
 const uint16_t PROGMEM cb_left[] = {KC_C, KC_V, COMBO_END};
 const uint16_t PROGMEM cb_right[] = {KC_M, KC_COMM, COMBO_END};
 const uint16_t PROGMEM cb_prev[] = {KC_D, KC_F, COMBO_END};
-const uint16_t PROGMEM cb_next[] = {KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM cb_next1[] = {KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM cb_next2[] = {KC_BTN1, KC_BTN2, COMBO_END};
 
 combo_t key_combos[] = {
   COMBO(cb_left, KC_LEFT),
   COMBO(cb_right, KC_RIGHT),
   COMBO(cb_prev, LCMD(LSFT(KC_LBRC))),
-  COMBO(cb_next, LCMD(LSFT(KC_RBRC)))
+  COMBO(cb_next1, LCMD(LSFT(KC_RBRC))),
+  COMBO(cb_next2, LCMD(LSFT(KC_RBRC))),
 };
 #endif
 

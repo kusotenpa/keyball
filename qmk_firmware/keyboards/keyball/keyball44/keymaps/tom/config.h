@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 #define RETRO_TAPPING
 
-#define KEYBALL_AUTO_MOUSE_THRESHOLD 3
+#define KEYBALL_AUTO_MOUSE_THRESHOLD 2
 
 #define TAP_CODE_DELAY 5
 
